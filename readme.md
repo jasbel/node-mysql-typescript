@@ -1,4 +1,7 @@
+npm i -g typescript
+
 $ tsc --init
+<!-- Configure tsconfig.json -->
 
 $ tsc <!-- Corre el codigo y lo generar -->
 
