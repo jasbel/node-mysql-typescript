@@ -1,4 +1,5 @@
 npm i -g typescript
+npm i -g nodemon
 
 $ tsc --init
 <!-- Configure tsconfig.json -->
@@ -14,3 +15,5 @@ pass: 123456
 db: node_db
 table1: heroes
  -->
+
+ copyfiles: sirve para generar html, css etc

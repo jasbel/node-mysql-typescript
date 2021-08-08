@@ -6,13 +6,13 @@ export default class Server {
     public app: express.Application;
     public port: number;
 
-    constructor( puerto: number) {
-        this.port = puerto;
+    constructor( port: number) {
+        this.port = port;
         this.app = express();
     }
 
-    static init (puerto: number) {
-        return new Server(puerto);
+    static init (port: number) {
+        return new Server(port);
     }
 
     private publicFolder () {
